@@ -1,0 +1,58 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color: firebrick,
+}
+p {
+ border: 1px solid black;
+}
+
+
+p {  
+ font-family: Arial, Helvetica, sans-serif;
+}
+ 
+p{
+    color: rgb(41, 28, 28)
+}
+
+h1 {text-align: center;} 
+
+h1 {
+    letter-spacing: 3px;
+  }
+  
+  p {
+    letter-spacing: 2px;
+  }
+  
+  h2 {
+    letter-spacing: -1px;
+  }
+
+  body {
+    animation: 150000ms ease-in-out infinite color-change;
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: teal;
+    }
+    20% {
+      background-color: gold;
+    }
+    40% {
+      background-color: indianred;
+    }
+    60% {
+      background-color: violet;
+    }
+    80% {
+      background-color: green;
+    }
+    100% {
+      background-color: teal;
+    }
+  }
